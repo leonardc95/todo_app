@@ -1,12 +1,16 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-
+import { StyleSheet, Text, View, Button } from 'react-native';
+import {Header} from './component/header';
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-      </View>
+      
+
+      <Button title="Button" onPress={() => {}} />
+      // <Text>Open up App.js to start working on your app!</Text>
+ 
+      // <Header textIwant={'hello'} ></Header>
+      // <Header textIwant={'goodbye'}/>
     );
   }
 }
